@@ -6,9 +6,13 @@ import java.util.List;
 import java.util.Queue;
 
 public class BFS {
+	private Queue<Vertex> queue;
+	public BFS() {
+		this.queue=new LinkedList<>();	
+	}
 	
+	//Running time complexity = O(V+E)
 	public void bfs(Vertex root) {
-		Queue<Vertex> queue=new LinkedList<>();
 		root.setVisited(true);
 		queue.add(root);
 		
