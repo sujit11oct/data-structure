@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
+import DepthFirstSearch.TopologicalOrder.Vertex;
+
 
 public class TopologicalOrderTest {
 
